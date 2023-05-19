@@ -1,0 +1,8 @@
+//split username into firstname and lastname 
+var username = "nabeel khan Mohammed" 
+if (username.includes(" ")) 
+{ const name1 = username.split(" ");
+ var firstname = name1[0]; 
+var lastname = name1.slice(1).join(" "); 
+console.log(firstname); console.log(lastname);
+ }
